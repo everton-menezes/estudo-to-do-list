@@ -1,0 +1,1 @@
+Esse é um miniprojeto de Estudo de um To Do List, com o intuito de aprender JavaScript e integrar no Front End.
