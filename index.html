@@ -20,7 +20,7 @@
                     aria-label="Qual tarefa deseja cadastrar?"
                     placeholder="Qual tarefa deseja cadastrar?"
                 />
-                <button type="submit" aria-label="Cadastrar tarefa" class="add-task-button">+</button>
+                <button type="submit" id="save-task" aria-label="Cadastrar tarefa" class="add-task-button">+</button>
             </form>
 
         </section>
@@ -29,6 +29,11 @@
                 
             </ul>
         </section>
+        <footer>
+            <button onclick="removeDoneTasks()" class="remove-done-tasks-button">
+                Remover Tarefas Concluídas
+            </button>
+        </footer>
     </main>
 </body>
 </html>
